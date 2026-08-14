@@ -1,0 +1,24 @@
+{
+  "phase": "2.1 final corrective gate",
+  "verifiedAt": "2026-08-13",
+  "suppliedArchive": {
+    "path": "../negative-result-warrant-phase-2.1.zip",
+    "sha256ObservedAtPhase3Start": "fc39b9901b65c04510f1acac71ffe5e5d6ca97cebca798a9295e4f80014ec860",
+    "sha256ReportedInPriorHandoff": "012abd296ee0cc1477608db3707e43f976bf6c9a787d1288e178b1878d67ccac",
+    "digestMatchesPriorHandoff": false,
+    "embeddedArtifactManifest": "PASS",
+    "packagingNoiseObserved": ["node_modules", "__MACOSX", ".DS_Store"]
+  },
+  "expandedCheckpoint": {
+    "artifactManifest": "PASS",
+    "strictTypecheck": "PASS",
+    "tests": 216,
+    "pass": 216,
+    "fail": 0
+  },
+  "phase3FrozenCopy": {
+    "sourceComparisonAtStart": "BYTE_IDENTICAL",
+    "sourceComparisonAfterRealRun": "BYTE_IDENTICAL",
+    "hashManifest": "FROZEN-PHASE-2.1-SOURCE-HASHES.sha256"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "preservation": "PRESERVING",
+  "acquisition": "SAFE_STRENGTHENING_AVAILABLE",
+  "changeKind": "EVIDENCE_ONLY_STRENGTHENING",
+  "reasonCodes": [
+    "ALGOLIA_RANKING_INFO_METADATA_ENABLED"
+  ],
+  "originalProposition": {
+    "profile": {
+      "id": "algolia-search",
+      "version": "0.2.1"
+    },
+    "sourceScopeIdentity": "algolia:/1/indexes/bestbuy/query:requested=bestbuy:effective=bestbuy",
+    "matchPredicateIdentity": "sha256:1765789af78e64de8a62255220bbf0bb94b74a0a8a73fdc54ac07fde457a7ed0",
+    "authorityContextId": "algolia-search-key-sha256:a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27"
+  },
+  "verificationProposition": {
+    "profile": {
+      "id": "algolia-search",
+      "version": "0.2.1"
+    },
+    "sourceScopeIdentity": "algolia:/1/indexes/bestbuy/query:requested=bestbuy:effective=bestbuy",
+    "matchPredicateIdentity": "sha256:1765789af78e64de8a62255220bbf0bb94b74a0a8a73fdc54ac07fde457a7ed0",
+    "authorityContextId": "algolia-search-key-sha256:a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27"
+  }
+}

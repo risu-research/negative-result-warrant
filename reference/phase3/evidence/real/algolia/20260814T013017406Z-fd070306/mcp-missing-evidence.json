@@ -1,0 +1,64 @@
+{
+  "publicResult": {
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "phase-3-algolia-real-source-server",
+        "version": "0.3.0"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "0 source matches returned"
+      }
+    ],
+    "structuredContent": {
+      "items": []
+    }
+  },
+  "rawHttp": [
+    {
+      "request": {
+        "method": "POST",
+        "url": "https://phase3.example.invalid/mcp",
+        "headers": {
+          "accept": "application/json, text/event-stream",
+          "content-type": "application/json",
+          "mcp-method": "server/discover",
+          "mcp-protocol-version": "2026-07-28"
+        },
+        "body": "{\"jsonrpc\":\"2.0\",\"id\":\"server-discover-probe-1\",\"method\":\"server/discover\",\"params\":{\"_meta\":{\"io.modelcontextprotocol/protocolVersion\":\"2026-07-28\",\"io.modelcontextprotocol/clientInfo\":{\"name\":\"phase-3-algolia-real-source-client\",\"version\":\"0.3.0\"},\"io.modelcontextprotocol/clientCapabilities\":{}}}}"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json"
+        },
+        "contentType": "application/json",
+        "body": "{\"result\":{\"supportedVersions\":[\"2026-07-28\"],\"capabilities\":{\"tools\":{\"listChanged\":true}},\"resultType\":\"complete\",\"ttlMs\":0,\"cacheScope\":\"private\",\"_meta\":{\"io.modelcontextprotocol/serverInfo\":{\"name\":\"phase-3-algolia-real-source-server\",\"version\":\"0.3.0\"}}},\"jsonrpc\":\"2.0\",\"id\":\"server-discover-probe-1\"}"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "https://phase3.example.invalid/mcp",
+        "headers": {
+          "accept": "application/json, text/event-stream",
+          "content-type": "application/json",
+          "mcp-method": "tools/call",
+          "mcp-name": "lookup-zero",
+          "mcp-protocol-version": "2026-07-28"
+        },
+        "body": "{\"method\":\"tools/call\",\"params\":{\"name\":\"lookup-zero\",\"arguments\":{},\"_meta\":{\"io.modelcontextprotocol/protocolVersion\":\"2026-07-28\",\"io.modelcontextprotocol/clientInfo\":{\"name\":\"phase-3-algolia-real-source-client\",\"version\":\"0.3.0\"},\"io.modelcontextprotocol/clientCapabilities\":{}}},\"jsonrpc\":\"2.0\",\"id\":0}"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json"
+        },
+        "contentType": "application/json",
+        "body": "{\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"0 source matches returned\"}],\"structuredContent\":{\"items\":[]},\"resultType\":\"complete\",\"_meta\":{\"io.modelcontextprotocol/serverInfo\":{\"name\":\"phase-3-algolia-real-source-server\",\"version\":\"0.3.0\"}}},\"jsonrpc\":\"2.0\",\"id\":0}"
+      }
+    }
+  ]
+}

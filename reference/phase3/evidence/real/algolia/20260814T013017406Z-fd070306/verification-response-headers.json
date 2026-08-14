@@ -1,0 +1,17 @@
+{
+  "accept-encoding": "deflate, gzip",
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "Correlation-ID",
+  "cache-control": "no-store",
+  "connection": "keep-alive",
+  "content-disposition": "inline; filename=a.txt",
+  "content-length": "712",
+  "content-type": "application/json; charset=UTF-8",
+  "correlation-id": "latenc-20wZu-CROTn9Bu1es",
+  "date": "Fri, 14 Aug 2026 01:30:58 GMT",
+  "server": "nginx",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "timing-allow-origin": "*",
+  "x-alg-pt": "1",
+  "x-content-type-options": "nosniff"
+}

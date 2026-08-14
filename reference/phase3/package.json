@@ -1,0 +1,20 @@
+{
+  "name": "api-mcp-negative-result-warrant-phase-3",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "One real Algolia HTTP to action-derived negative-premise vertical slice.",
+  "scripts": {
+    "test": "node --experimental-strip-types --test --test-reporter=spec tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit && node --experimental-strip-types --test --test-reporter=spec tests/*.test.ts",
+    "prepare:real": "node --experimental-strip-types scripts/prepare-real-run.ts",
+    "run:real": "node --experimental-strip-types scripts/run-real-experiment.ts"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
+    "@modelcontextprotocol/server": "2.0.0",
+    "@types/node": "24.3.0",
+    "typescript": "5.9.2"
+  }
+}

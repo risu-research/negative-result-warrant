@@ -1,0 +1,80 @@
+{
+  "version": "0.3.0",
+  "sourceInstance": {
+    "provider": "algolia",
+    "applicationId": "latency",
+    "sourceInstanceId": "algolia-app:latency"
+  },
+  "authorityContextId": "algolia-search-key-sha256:a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27",
+  "observationId": "20260814T013017406Z-fd070306-verification",
+  "request": {
+    "method": "POST",
+    "url": "https://latency-dsn.algolia.net/1/indexes/bestbuy/query",
+    "origin": "https://latency-dsn.algolia.net",
+    "pathname": "/1/indexes/bestbuy/query",
+    "queryString": "",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "x-algolia-application-id": "latency",
+      "x-algolia-api-key": "sha256:a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27"
+    },
+    "applicationIdHeader": "latency",
+    "bodyBinding": {
+      "algorithm": "SHA-256",
+      "representation": "exact-http-body-bytes",
+      "digest": "c9f8db7da22841e20ec68d938488733adc743350d86cb248e30345b6b0e59ccc",
+      "byteLength": 138
+    },
+    "credentialBinding": {
+      "algorithm": "SHA-256",
+      "representation": "exact-credential-bytes-sha256-fingerprint",
+      "digest": "a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27",
+      "byteLength": 32
+    }
+  },
+  "response": {
+    "status": 200,
+    "finalUrl": "https://latency-dsn.algolia.net/1/indexes/bestbuy/query",
+    "headers": {
+      "accept-encoding": "deflate, gzip",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "Correlation-ID",
+      "cache-control": "no-store",
+      "connection": "keep-alive",
+      "content-disposition": "inline; filename=a.txt",
+      "content-length": "712",
+      "content-type": "application/json; charset=UTF-8",
+      "correlation-id": "latenc-20wZu-CROTn9Bu1es",
+      "date": "Fri, 14 Aug 2026 01:30:58 GMT",
+      "server": "nginx",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "timing-allow-origin": "*",
+      "x-alg-pt": "1",
+      "x-content-type-options": "nosniff"
+    },
+    "contentType": "application/json; charset=UTF-8",
+    "bodyBinding": {
+      "algorithm": "SHA-256",
+      "representation": "exact-http-body-bytes",
+      "digest": "679f5efc1eee0dbd8c4ba191d3fe40cf47e7ae41fd355ce4ff436216ab8d0dd1",
+      "byteLength": 712
+    }
+  },
+  "normalized": {
+    "adapterVersion": "0.3.0",
+    "profile": "algolia-search",
+    "requestBinding": {
+      "algorithm": "SHA-256",
+      "representation": "exact-profile-input-bytes",
+      "digest": "526a0793508f4905429088c9b0a4b20636974f11418ec9e25ec359c1c3d31122",
+      "byteLength": 190
+    },
+    "responseBinding": {
+      "algorithm": "SHA-256",
+      "representation": "exact-profile-input-bytes",
+      "digest": "c8ea6e1c9c232a4b92822fc089751f0cf51172767f840e19934e8d96f92eb077",
+      "byteLength": 712
+    }
+  }
+}

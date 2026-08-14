@@ -1,0 +1,30 @@
+{
+  "runId": "20260814T013017406Z-fd070306",
+  "sourceInstance": {
+    "provider": "algolia",
+    "applicationId": "latency",
+    "sourceInstanceId": "algolia-app:latency",
+    "index": "bestbuy",
+    "endpoint": "https://latency-dsn.algolia.net/1/indexes/bestbuy/query"
+  },
+  "authorityContextId": "algolia-search-key-sha256:a46d4e0bff97a653de3a9c0ecd9ba874902c13d7dbd45a3720b6d86d44d3cc27",
+  "ordinaryHttpStatus": 200,
+  "verificationHttpStatus": 200,
+  "ordinaryNbHits": 0,
+  "verificationNbHits": 0,
+  "verificationExactness": {
+    "nbHits": true
+  },
+  "verificationIndexUsed": "bestbuy",
+  "ordinaryVerdict": "UNKNOWN",
+  "verificationVerdict": "WARRANTED_ZERO",
+  "preservation": "PRESERVING",
+  "acquisition": "SAFE_STRENGTHENING_AVAILABLE",
+  "composition": "SUCCEEDED",
+  "mcpProtocol": "2026-07-28",
+  "postMcpReceiver": "ACCEPT",
+  "firstAction": "BLOCK",
+  "verifiedAction": "PASS",
+  "totalEffectCount": 1,
+  "adversarialBlockCount": 10
+}

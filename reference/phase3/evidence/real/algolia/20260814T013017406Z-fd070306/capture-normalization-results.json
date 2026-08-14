@@ -1,0 +1,24 @@
+{
+  "ordinaryRequestProperties": [
+    "enableABTest",
+    "enableRules",
+    "query",
+    "typoTolerance"
+  ],
+  "verificationRequestProperties": [
+    "enableABTest",
+    "enableRules",
+    "getRankingInfo",
+    "query",
+    "typoTolerance"
+  ],
+  "allOrdinaryPropertiesPreserved": true,
+  "allVerificationPropertiesPreserved": true,
+  "pathAndIndexDerivedFromUrl": true,
+  "sourceApplicationPreservedOutsideProfile": true,
+  "authorityPreservedOutsideProfile": true,
+  "completeOrdinaryResponsePreserved": true,
+  "completeVerificationResponsePreserved": true,
+  "rawBytesDistinctFromCanonicalProfileBytes": true,
+  "canonicalization": "recursive object-key sorting; array order and JSON values preserved; raw byte bindings retained separately"
+}

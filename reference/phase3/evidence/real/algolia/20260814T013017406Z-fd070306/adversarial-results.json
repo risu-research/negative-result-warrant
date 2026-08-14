@@ -1,0 +1,57 @@
+{
+  "total": 10,
+  "block": 10,
+  "pass": 0,
+  "cases": [
+    {
+      "id": "source-application-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "action-query-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "action-index-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "effective-index-differs-from-action",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "authority-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "normalized-request-binding-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "normalized-response-binding-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "nested-warrant-changed",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "missing-evidence",
+      "result": "BLOCK",
+      "effects": 0
+    },
+    {
+      "id": "ordinary-unknown-as-evidence",
+      "result": "BLOCK",
+      "effects": 0
+    }
+  ]
+}
