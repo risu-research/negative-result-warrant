@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify frozen evidence manifests
-        run: ./scripts/verify-recorded.sh
+        run: bash ./scripts/verify-recorded.sh
 
   reference-tests:
     runs-on: ubuntu-latest
