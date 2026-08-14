@@ -68,6 +68,14 @@ See [`docs/PRIOR-ART.md`](docs/PRIOR-ART.md) and [`docs/LIMITATIONS.md`](docs/LI
 - [`docs/ERRATA.md`](docs/ERRATA.md) — release-level corrections to wording in the immutable historical report.
 - [`audit/phase4/`](audit/phase4/) — frozen externalization/prior-art audit that motivated the narrow public claim.
 
+## Consumer witness
+
+A versioned consumer witness is published at [`risu-research/negative-result-warrant-agents-consumer`](https://github.com/risu-research/negative-result-warrant-agents-consumer), with release [`v0.1.0-rc.1`](https://github.com/risu-research/negative-result-warrant-agents-consumer/releases/tag/v0.1.0-rc.1).
+
+That witness consumes the recorded NRW evidence through the OpenAI Agents SDK v0.15.0 application-only `customData` path, revalidates it after the SDK boundary, derives the operation's exact negative premise, and blocks persuasive model-visible text when matching machine evidence is missing.
+
+This is a **third-party runtime witness**, not independent human adoption, not another provider witness, and not evidence that the SDK itself guarantees NRW semantics.
+
 ## Reproduce without touching the live provider
 
 The default verification path uses only recorded artifacts:
