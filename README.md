@@ -73,7 +73,7 @@ See [`docs/PRIOR-ART.md`](docs/PRIOR-ART.md) and [`docs/LIMITATIONS.md`](docs/LI
 The default verification path uses only recorded artifacts:
 
 ```bash
-./scripts/verify-recorded.sh
+bash ./scripts/verify-recorded.sh
 ```
 
 For the TypeScript reference checks after installing the pinned dependencies:
