@@ -7,7 +7,7 @@ The repository separates **recorded-evidence verification** from **live-provider
 No network request to Algolia is required to verify the published evidence manifests:
 
 ```bash
-./scripts/verify-recorded.sh
+bash ./scripts/verify-recorded.sh
 ```
 
 This checks:
